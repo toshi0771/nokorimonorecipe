@@ -4,6 +4,7 @@ import { youwareVitePlugin } from "@youware/vite-plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/nokorimonorecipe",
   plugins: [youwareVitePlugin(), react()],
   server: {
     host: "0.0.0.0",
